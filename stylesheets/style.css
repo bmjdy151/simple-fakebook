@@ -197,7 +197,7 @@ h1, h2{
 #signupB:hover div{opacity: 0; transform: translate(100%,0)}
 #signupB div{
     letter-spacing: 3px;
-    position: absolute;
+    /* position: absolute; */
     top: 603px;
     padding-left:60px;
     font-weight: 800;
