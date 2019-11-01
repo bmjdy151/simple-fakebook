@@ -265,11 +265,10 @@ h1, h2{
   background-color:#ffa69e;
   color:#CE5B78;
   border-radius: 4px;
-  padding:5px;
-  margin-top:4px;
-  width:300px;
+  padding:2px 2px;
+  width:100%;
   height:100px;
-  margin-bottom:10px;
+  margin: 4px 3px 10px 3px;
 }
 .h6-container h6{
   font-size:24px;
@@ -279,9 +278,29 @@ h1, h2{
   margin-top:20px;
 }
 
+.modalimgelm-container{
+  width:25vw;
+}
+.modalimgelm-container h6{
+  margin: 0 5px;
+} */
+
 .modalimgelm-container img{
-  width:300px;
-  height:156px;
+  width:20vw;
+  height:10vh;
+}
+.anonymous-container{
+  background-color:#ffa69e;
+  color:#CE5B78;
+  border-radius: 4px;
+  padding:0 1px;
+  width:100%;
+  height:100px;
+  margin: 4px 3px 10px 3px;
+}
+#anonymous-desc{
+  font-size:20px;
+  margin:0 !important
 }
 
 .modal__content a:visited{
@@ -308,7 +327,8 @@ h1, h2{
   justify-content: center;
 }
 #eyeimg{
-  width:100px;
+  width:50%;
+  height:50%;
 }
 .message{
   transform: translateY(-50%);
@@ -319,4 +339,28 @@ h1, h2{
 }
 span{
   font-weight:bold;
+}
+
+@media (max-width: 780px) {
+  .h6-container h6{
+    font-size:20px;
+    text-align: center;
+  }
+  #anonymous-desc{
+    font-size:17px;
+  }
+}
+
+@media (max-width: 570px) {
+
+  .modalimgelm-container{
+    margin:0 2px;
+  }
+  .h6-container h6{
+    font-size:12px;
+    text-align: center;
+  }
+  #anonymous-desc{
+    font-size:12px;
+  }
 }
